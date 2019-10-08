@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-10-08T17:49:18+01:00">2019-10-08T17:49:18+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-10-08T18:18:22+01:00">2019-10-08T18:18:22+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -51,7 +51,7 @@
     <tbody>
       
       <tr>
-        <td class="strong"><a href="#e142bd63f18f201f06e42b7c7044b259c626cef3" class="src_link" title="spec/bookmarks_spec.rb">spec/bookmarks_spec.rb</a></td>
+        <td class="strong"><a href="#43b8dc84da1a8ab96c8cfa2f29b86f9534614973" class="src_link" title="spec/bookmarks_spec.rb">spec/bookmarks_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>27</td>
         <td>16</td>
@@ -61,7 +61,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#f59513696951485576568435fb2f7887b9da52b7" class="src_link" title="spec/features/add_bookmark_spec.rb">spec/features/add_bookmark_spec.rb</a></td>
+        <td class="strong"><a href="#5b87e80123d04446283a3076c802f0abcd698664" class="src_link" title="spec/features/add_bookmark_spec.rb">spec/features/add_bookmark_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>10</td>
         <td>7</td>
@@ -71,7 +71,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#78e7d07e15fa8e0b82a65ac69d6bf586fee01593" class="src_link" title="spec/features/bookmarks_spec.rb">spec/features/bookmarks_spec.rb</a></td>
+        <td class="strong"><a href="#d15b55f30664b1788a015e4c8a016d1a408c9bdf" class="src_link" title="spec/features/bookmarks_spec.rb">spec/features/bookmarks_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>22</td>
         <td>13</td>
@@ -81,7 +81,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#652619e5072617e47eae3c014761f3c9f133a82f" class="src_link" title="spec/features/home_page_spec.rb">spec/features/home_page_spec.rb</a></td>
+        <td class="strong"><a href="#a897cb9c2c7c577516ede207b93f23ebd765f7c1" class="src_link" title="spec/features/home_page_spec.rb">spec/features/home_page_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>8</td>
         <td>4</td>
@@ -106,7 +106,7 @@
     
       <div class="source_files">
       
-        <div class="source_table" id="e142bd63f18f201f06e42b7c7044b259c626cef3">
+        <div class="source_table" id="43b8dc84da1a8ab96c8cfa2f29b86f9534614973">
   <div class="header">
     <h3>spec/bookmarks_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -165,19 +165,19 @@
         <li class="covered" data-hits="1" data-linenumber="8">
           <span class="hits">1</span>
           
-          <code class="ruby">      connection.exec(&quot;INSERT INTO bookmarks (url) VALUES(&#39;www.facebook.com&#39;);&quot;)</code>
+          <code class="ruby">      connection.exec(&quot;INSERT INTO bookmarks (url) VALUES (&#39;http://www.makersacademy.com&#39;);&quot;)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="9">
           <span class="hits">1</span>
           
-          <code class="ruby">      connection.exec(&quot;INSERT INTO bookmarks (url) VALUES(&#39;www.cartoonnetwork.com&#39;);&quot;)</code>
+          <code class="ruby">      connection.exec(&quot;INSERT INTO bookmarks (url) VALUES(&#39;http://www.destroyallsoftware.com&#39;);&quot;)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="10">
           <span class="hits">1</span>
           
-          <code class="ruby">      connection.exec(&quot;INSERT INTO bookmarks (url) VALUES(&#39;www.google.com&#39;);&quot;)</code>
+          <code class="ruby">      connection.exec(&quot;INSERT INTO bookmarks (url) VALUES(&#39;http://www.google.com&#39;);&quot;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="11">
@@ -201,19 +201,19 @@
         <li class="covered" data-hits="1" data-linenumber="14">
           <span class="hits">1</span>
           
-          <code class="ruby">      expect(bookmarks).to include &#39;www.facebook.com&#39;</code>
+          <code class="ruby">      expect(bookmarks).to include &#39;http://www.makersacademy.com&#39;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="15">
           <span class="hits">1</span>
           
-          <code class="ruby">      expect(bookmarks).to include &#39;www.google.com&#39;</code>
+          <code class="ruby">      expect(bookmarks).to include &#39;http://www.destroyallsoftware.com&#39;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="16">
           <span class="hits">1</span>
           
-          <code class="ruby">      expect(bookmarks).to include &#39;www.cartoonnetwork.com&#39;</code>
+          <code class="ruby">      expect(bookmarks).to include &#39;http://www.google.com&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="17">
@@ -249,13 +249,13 @@
         <li class="covered" data-hits="1" data-linenumber="22">
           <span class="hits">1</span>
           
-          <code class="ruby">      Bookmarks.create(url: &#39;www.wikipedia.com&#39;)</code>
+          <code class="ruby">      Bookmarks.create(url: &#39;http://www.testbookmark.com&#39;)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="23">
           <span class="hits">1</span>
           
-          <code class="ruby">      expect(Bookmarks.all).to include &#39;www.wikipedia.com&#39;</code>
+          <code class="ruby">      expect(Bookmarks.all).to include &#39;http://www.testbookmark.com&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="24">
@@ -287,7 +287,7 @@
 </div>
 
       
-        <div class="source_table" id="f59513696951485576568435fb2f7887b9da52b7">
+        <div class="source_table" id="5b87e80123d04446283a3076c802f0abcd698664">
   <div class="header">
     <h3>spec/features/add_bookmark_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -366,7 +366,7 @@
 </div>
 
       
-        <div class="source_table" id="78e7d07e15fa8e0b82a65ac69d6bf586fee01593">
+        <div class="source_table" id="d15b55f30664b1788a015e4c8a016d1a408c9bdf">
   <div class="header">
     <h3>spec/features/bookmarks_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -517,7 +517,7 @@
 </div>
 
       
-        <div class="source_table" id="652619e5072617e47eae3c014761f3c9f133a82f">
+        <div class="source_table" id="a897cb9c2c7c577516ede207b93f23ebd765f7c1">
   <div class="header">
     <h3>spec/features/home_page_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
