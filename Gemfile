@@ -2,6 +2,7 @@
 
 source 'https://rubygems.org'
 
+gem 'pg'
 gem 'capybara'
 gem 'rspec'
 gem 'rubocop'
