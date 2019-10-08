@@ -23,5 +23,4 @@ class Bookmarks
   end
 
 
-
 end
