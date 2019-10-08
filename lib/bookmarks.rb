@@ -10,8 +10,9 @@ class Bookmarks
       connection = PG.connect(dbname: 'bookmark_manager')
     end
     result = connection.exec("SELECT * FROM bookmarks;")
-    result.map { |website| website['url'] } 
+    result.map { |website| website['url'] }
   end
+
 
 
 end

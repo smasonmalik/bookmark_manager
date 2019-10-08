@@ -15,4 +15,10 @@ feature 'Visiting bookmarks' do
     expect(page).to have_content 'www.cartoonnetwork.com'
     expect(page).to have_content 'www.google.com'
   end
+
+  scenario 'User can add bookmarks' do
+    visit '/bookmarks'
+    expect(page).to have_button 'Add bookmark'
+  end
+
 end
