@@ -3,14 +3,6 @@
     "coverage": {
       "/Users/student/Projects/week4/weekly-challenge/bookmarks_1/bookmark_manager/spec/bookmarks_spec.rb": [
         1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
         1,
         null,
         1,
@@ -20,6 +12,24 @@
         1,
         null,
         null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
         null,
         1,
         1,
@@ -30,9 +40,18 @@
         null,
         null
       ],
-      "/Users/student/Projects/week4/weekly-challenge/bookmarks_1/bookmark_manager/spec/features/add_bookmark_spec.rb": [
+      "/Users/student/Projects/week4/weekly-challenge/bookmarks_1/bookmark_manager/spec/database_helpers.rb": [
         1,
         null,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/student/Projects/week4/weekly-challenge/bookmarks_1/bookmark_manager/spec/features/creating_bookmark_spec.rb": [
+        1,
+        null,
+        1,
         1,
         1,
         1,
@@ -77,6 +96,6 @@
         null
       ]
     },
-    "timestamp": 1570609153
+    "timestamp": 1570615285
   }
 }
